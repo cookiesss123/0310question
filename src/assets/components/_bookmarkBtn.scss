@@ -1,0 +1,22 @@
+/* 收藏按鈕 */
+.bookmarkBtn{
+    img{
+        height: 36px;
+    }
+    &:hover{
+        img{
+            content: url('./src/assets/images/image 4.png');
+        }
+    }
+}
+
+.deleteBookmarkBtn{
+    img{
+        height: 36px;
+    }
+    &:hover{
+        img{
+            content: url('./src/assets/images/image 5.png');
+        }
+    }
+}
